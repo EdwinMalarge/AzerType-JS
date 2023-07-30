@@ -1,13 +1,19 @@
-const motApplication = "Bonjour"
+
+const listeMots = ["Cachalots","Pétunia","Serviette"]
+let score = 0
 
 
-let motUtilisateur = prompt("entrez le mot indiqué")
-    console.log (motUtilisateur)
 
+let motUtilisateur = prompt("Entrez le mot: " + listeMots [0] )
 
-if (motUtilisateur === motApplication) {
-    console.log ("Bravo, bien joué")}
-    else {
-        console.log("Il y a une erreur")
+for (i=0;i<listeMots.length;i++) {
+
+    if (motUtilisateur === listeMots [i]){
+        score++
+        console.log ("Bien joué !")
+    } else {
+        console.log ("Réessayer")
+        motUtilisateur = prompt ("Entrez le mot: " + listeMots [i])
     }
-    
+}
+console.log (score)
