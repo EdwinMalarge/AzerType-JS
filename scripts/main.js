@@ -1,18 +1,5 @@
 lancerJeu ()
 
-
-let saisie = document.getElementById("zoneSaisie")
-
-
-let proposition = document.querySelector(".zoneProposition")
-let score = document.querySelector(".zoneScore")
-
-let boutonRadio = document.querySelectorAll(".optionSource input")
-
-console.log (saisie)
-
-
-//corrigé
 let inputEcriture = document.getElementById("inputEcriture")
 console.log(inputEcriture)
 
