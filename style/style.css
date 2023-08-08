@@ -12,10 +12,12 @@
  */
 
 body {
-    --color-primary: #f76c5e;
-    --color-secondary: #f68e5f;
-    --color-tertiary: #ffeee6;    
+    --color-primary: #1b589f;
+    --color-secondary: #5475e4;
+    --color-tertiary: #fffdfd;    
+    background : rgb(201, 201, 201)
 }
+
 
 /* Mise en forme des titres */
 h1 {
