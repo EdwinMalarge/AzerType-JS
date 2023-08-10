@@ -39,6 +39,8 @@ function afficherEmail(nom, email, score) {
     location.href = mailto
 }
 
+function validerNom ()
+
 /**
  * Cette fonction lance le jeu. 
  * Elle demande à l'utilisateur de choisir entre "mots" et "phrases" et lance la boucle de jeu correspondante
